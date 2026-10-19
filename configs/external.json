@@ -1,0 +1,27 @@
+{
+  "participant": "Simonenko_sa",
+  "selected_submission": "submission_external.csv",
+  "reported_submission_time": "06.10.2026 16:51",
+  "public_f1": 0.995079,
+  "private_f1": 0.992305,
+  "oof_f1": 0.9893803829751652,
+  "oof_errors": 508,
+  "raw_train_rows": 64000,
+  "fitting_rows": 63998,
+  "test_rows": 16000,
+  "seed": 42,
+  "folds": 5,
+  "source_weight": 0.25,
+  "refined_scale": 0.992553578109168,
+  "source_scale": 1.2193455696105957,
+  "threshold": 0.034253455073786174,
+  "submission_sha256": "17301496020fb14600e2c75b1b9d4caaa6843c21cdd06fb32678a4eb1b0499f9",
+  "verification_bundle_sha256": "b8b0110d3d47703e5e9b3e07b6dd670add8f233173eae279d06afa173745378b",
+  "organizer_archive_sha256": "5e001d2b843f79a5eabfd1b0a30be45fcfa4658c77815c693eb2be5f395549d1",
+  "competition_sha256": {
+    "train_6dd2c989.csv": "5e61534a4c6780d0a9a72fdc1c539d60944f48beafe1c97db17714e59f0203a3",
+    "test_5013633d.csv": "e496f56c793d09aab88814891ab7524d9785dae8e90025e47803b2054b7448f5",
+    "sample_460901b3.csv": "df29e85ebe7971ebbc00e1f653b85c77b0ef1169bf4cb03950e287e891779f48"
+  },
+  "verification_bundle_bytes": 582010693
+}

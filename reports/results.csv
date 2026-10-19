@@ -1,0 +1,12 @@
+submission_time,file,public_f1,private_f1,status
+09.10.2026 12:13,submission_short_brand_joint.csv,0.994750,0.992641,OK
+08.10.2026 07:55,submission_brand_domain.csv,0.994752,0.992558,OK
+07.10.2026 21:02,submission_short_pages.csv,0.995078,0.992389,OK
+09.10.2026 12:13,submission_competition_short_s0.csv,0.994750,0.992387,OK
+06.10.2026 16:51,submission_external.csv,0.995079,0.992305,OK
+14.10.2026 09:25,submission_url_content_consistency.csv,0.995408,0.992223,OK
+09.10.2026 12:14,submission_html_family_threshold_only.csv,0.995078,0.992135,OK
+05.10.2026 13:20,submission_url_html.csv,0.994421,0.990549,OK
+06.10.2026 15:37,submission_html_refined.csv,0.994420,0.990459,OK
+05.10.2026 12:29,submission_hybrid_svm.csv,0.974984,0.974253,OK
+05.10.2026 12:29,submission_char_svm.csv,0.970760,0.968649,OK

@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+/src/legacy/*.py -text
+/src/replay_external_frozen.py -text
+/src/run_full_training.py -text
+/reference/*.csv -text
+*.npz binary

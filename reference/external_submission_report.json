@@ -1,0 +1,107 @@
+{
+  "parameters": {
+    "external_score_distance": 0.25,
+    "external_minimum_unique_host_urls": 1,
+    "refined_threshold_for_confidence": 0.07130044297070283,
+    "source_weight": 0.25,
+    "scales": {
+      "refined": 0.992553578109168,
+      "source": 1.2193455696105957
+    }
+  },
+  "baseline_refined": {
+    "oof_f1": 0.9881752160900776,
+    "threshold": 0.07130044297070283,
+    "fold_f1": [
+      0.9876336197862083,
+      0.9883659993711351,
+      0.9895572263993316,
+      0.9883806134198682,
+      0.9869369840108684
+    ],
+    "threshold_other_folds_f1": [
+      0.987530126794509,
+      0.9882599580712789,
+      0.9895572263993316,
+      0.9883806134198682,
+      0.9869369840108684
+    ],
+    "threshold_other_folds_mean": 0.9881329817391713,
+    "errors": 565,
+    "known_rows": 31953,
+    "known_errors": 17
+  },
+  "cv_with_decontaminated_external_hosts": {
+    "oof_f1": 0.9893803829751652,
+    "threshold": 0.034253455073786174,
+    "fold_f1": [
+      0.9893394648829431,
+      0.9893238434163701,
+      0.9902912621359223,
+      0.9888040179972795,
+      0.9891417832532888
+    ],
+    "threshold_other_folds_f1": [
+      0.9892360748249556,
+      0.9893238434163701,
+      0.9899874843554443,
+      0.9888040179972795,
+      0.9883381924198251
+    ],
+    "threshold_other_folds_mean": 0.9891379226027748,
+    "errors": 508,
+    "known_rows": 32004,
+    "known_errors": 24
+  },
+  "cv_protocol": "Every local training URL was removed from external data before building host evidence. External exact-overlap labels are used only at test prediction time, and are not included in the CV score.",
+  "test_external_host_rule_rows": 37,
+  "test_external_exact_rule_rows": 25,
+  "test_predictions_different_from_accepted_html": 57,
+  "test_predictions_different_from_accepted_refined": 52,
+  "test_rows": 16000,
+  "test_positive_predictions": 6004,
+  "submission": "submission_external.csv",
+  "submission_sha256": "17301496020fb14600e2c75b1b9d4caaa6843c21cdd06fb32678a4eb1b0499f9",
+  "source_sha256": {
+    "make_external_submission.py": "fbc739aad230f59cb0f9fde3b45180d1a47c124124fc7586e0f2f2646ec73615",
+    "audit_external_sources.py": "5d6876e3f33f1bbc51e50673dc7a5afa82d6b02f8d7571af4eabd7d322b9738b",
+    "external_host_refinement.py": "10d0615160321053ad0c3bef57b35e0120e3bb99bd2aa7c1f5f66c0968644e7e",
+    "download_external_data.py": "2af75793412fc8ac3542b0ed23dfce73b44da910f895ac5d9e8f1ef8d94ebbdf",
+    "refine_predictions.py": "ba9f5af31ae9d1ffb8f9e910da7f548c69d3a50cc862d01dee095795fcec0e4f",
+    "train_source_refinement.py": "b407a84f0e5b7288cb69a4190476c9520393163ec6abdbbc85974aa370edd554",
+    "extract_source_features.py": "a2d26ee62f2268e6758865079936e5b26c97c59c470c535ab94a299f18d6aee0"
+  },
+  "external_sources": [
+    {
+      "file": "malicious_urls_v1.zip",
+      "source_page": "https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset",
+      "download_url": "https://www.kaggle.com/api/v1/datasets/download/sid321axn/malicious-urls-dataset?datasetVersionNumber=1",
+      "license": "CC0: Public Domain",
+      "creator": "Manu Siddhartha",
+      "version": 1,
+      "bytes": 17748901,
+      "sha256": "8d085ce1fb4e462111e233a6a302970f699264ae129e3f6e5ac0496f5b69ca79"
+    },
+    {
+      "file": "url_dataset_v1.zip",
+      "source_page": "https://www.kaggle.com/datasets/teseract/urldataset",
+      "download_url": "https://www.kaggle.com/api/v1/datasets/download/teseract/urldataset?datasetVersionNumber=1",
+      "license": "CC0: Public Domain",
+      "creator": "TeseRact",
+      "version": 1,
+      "bytes": 6911526,
+      "sha256": "d68d9dcb133aa3190ea758ff9dd1e044bdcbd0c643b415b076ca2fdf3f5f0048"
+    },
+    {
+      "file": "phiusiil_uci_967.zip",
+      "source_page": "https://archive.ics.uci.edu/dataset/967/phiusil-phishing-url-dataset",
+      "download_url": "https://archive.ics.uci.edu/static/public/967/phiusiil%2Bphishing%2Burl%2Bdataset.zip",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Prasad, A. & Chandra, S. (2024). PhiUSIIL Phishing URL (Website) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.1016/j.cose.2023.103545.",
+      "bytes": 15376007,
+      "sha256": "0a639fd03aea6308c5b1c10c92aa23c2ce1505447a9137271865cd0badc9a59a"
+    }
+  ],
+  "public_f1": null
+}

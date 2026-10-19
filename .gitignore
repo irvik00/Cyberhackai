@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+_work/
+outputs/
+data/
+*.zip
+*.gz
+*.part
+*.joblib
+*.pkl
+.env
+.env.*
+.DS_Store
+Thumbs.db

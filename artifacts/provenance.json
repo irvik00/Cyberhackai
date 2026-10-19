@@ -1,0 +1,29 @@
+{
+  "submission_sha256": "17301496020fb14600e2c75b1b9d4caaa6843c21cdd06fb32678a4eb1b0499f9",
+  "test_artifact_sha256": "fe75f8bae97be31ef77433f461f74f4c987ebb8cc6a26ade1f9cd2a5e7feb277",
+  "runtime_code_sha256": {
+    "src/legacy/train_model.py": "3cbbe6ce25c2cde9a0efb9c116365feea80f5603fd3a14ee6411e99904804e04",
+    "src/legacy/train_content_model.py": "86e07dfe9a9bd3ad393134a69f8786e78957dccfbdc435ac09518a010c9daf26",
+    "src/legacy/train_numeric_refinement.py": "c4bafff829ac40e6b88c6a4347e9d40a1a42c1971cb7276407552f5d3ecbc9bd",
+    "src/legacy/train_source_refinement.py": "b407a84f0e5b7288cb69a4190476c9520393163ec6abdbbc85974aa370edd554",
+    "src/legacy/make_refined_submission.py": "52506c1fdd0e4133d9ddb874f5090b09a96e17a3d12ce5538e5343afa510925d",
+    "src/legacy/make_external_submission.py": "fbc739aad230f59cb0f9fde3b45180d1a47c124124fc7586e0f2f2646ec73615",
+    "src/legacy/refine_predictions.py": "ba9f5af31ae9d1ffb8f9e910da7f548c69d3a50cc862d01dee095795fcec0e4f",
+    "src/legacy/extract_content_features.py": "af346a69bb041d15bd04334fe3a3519f4a638e472d125cb157c047437d2a1140",
+    "src/legacy/extract_source_features.py": "a2d26ee62f2268e6758865079936e5b26c97c59c470c535ab94a299f18d6aee0",
+    "src/legacy/download_organizer_archive.py": "cf8d75e1aec5464bf92240201fdc490fcd8bcdacb3ad2171d5ec80bdf22fab5e",
+    "src/legacy/download_external_data.py": "2af75793412fc8ac3542b0ed23dfce73b44da910f895ac5d9e8f1ef8d94ebbdf",
+    "src/legacy/audit_external_sources.py": "5d6876e3f33f1bbc51e50673dc7a5afa82d6b02f8d7571af4eabd7d322b9738b",
+    "src/legacy/external_host_refinement.py": "10d0615160321053ad0c3bef57b35e0120e3bb99bd2aa7c1f5f66c0968644e7e",
+    "src/replay_external_frozen.py": "876ad1ccb852649442a2168f8860c7e926e29c3d10cd052c052a5df2b1b5c9bb",
+    "src/run_full_training.py": "efceedfe135cfdea0fd1da049d44f58f0d5aed8f6fa76c1c869af8dd8c6fe6e7"
+  },
+  "source_sha256": {
+    "experiments/refinements/refined_scores.npz": "b79dffbdcfd6077595200fe642cb6910fbba663489de85f8cf052d9397cce8f9",
+    "experiments/source_refinement/model_scores.npz": "3564aecc0d10c38626f2c8b219e9d839b9da0d2db8599764e13a594c6dbf3fb4",
+    "experiments/external/host_rules.npz": "421f74fb46f6134970dbf5a5d1dbcc3df70609b2c478edd04aa9c90ef01890dd",
+    "experiments/external/matching_labels.json": "2d22d90b34690ea542bf17fbdd15e51d69435acd85c98ae1995b8068ff7874e0",
+    "test_5013633d.csv": "e496f56c793d09aab88814891ab7524d9785dae8e90025e47803b2054b7448f5",
+    "submission_external.csv": "17301496020fb14600e2c75b1b9d4caaa6843c21cdd06fb32678a4eb1b0499f9"
+  }
+}
